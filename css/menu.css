@@ -1,0 +1,13 @@
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#menu {
+	text-align: center;
+}
+
+#credits {
+	text-align: center;
+	margin-top: 200px;
+}

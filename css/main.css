@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'pixelttf';
+  src: url('fonts/corbel.ttf');
+}
+
+body {
+	background-image: url("../images/bg.jpg");
+	background-repeat: repeat;
+	font-family: 'pixelttf';
+	font-size: 15pt;
+	color: #e6ddd4;
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+
+	cursor: default;
+}
+
+span {
+	color: #c38234;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+span:hover {
+	color: #e9e0d7;
+}
+
+h3 {
+	color: white;
+	font-size: 22pt;
+	display: inline;
+}
+
+#besideMouse {
+	color: #e9e0d7;
+	font-weight: bold;
+	padding: 6px;
+	background-image: url("../images/itembg.png");
+	width: 80px;
+	height: 25px;
+	text-align: center;
+}
+
+#help_button {
+	cursor: pointer;
+}
+
+#container {
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 733px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 416px;
+	image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+	background-size: 100%;
+	background-position: center;
+	float:left;
+}
+
+#main {
+	width: 693px;
+	margin-left: 268px;
+	padding: 20px;
+	float:left;
+}
+
+#inventory {
+	width: 228px;
+	height: 100%;
+	padding: 20px;
+	float:left;
+}
+
+#help {
+	width: 228px;
+	height: 100%;
+	padding: 20px;
+	float:left;
+}

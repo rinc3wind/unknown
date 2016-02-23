@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'pixelttf';
+  src: url('fonts/pixel.ttf');
+}
+
+body {
+	margin: 0px;	
+	padding: 0px;
+	background-color: white;
+	font-size: 0.9em;
+	font-family: 'pixelttf';
+}
+
+span {
+	color: #0099FF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+span:hover {
+	color: #0066CC;
+}
+
+#besideMouse {
+	font-family: 'pixelttf';
+	color: #0099FF;
+	font-weight: bold;
+	background-color: white;
+	padding: 6px;
+}
+
+#header {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 380px;
+	image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    image-rendering: optimize-contrast;
+	background-size: 100%;
+	background-position: center;
+}
+
+#main {
+	font-family: 'pixelttf';
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: white;
+}
+
+#inventory {
+	font-family: 'pixelttf';
+	width: 120px;
+	margin-left: 20px;
+	padding: 20px;
+	float:left;
+	background-color: white;
+}
+
+#help {
+	font-family: 'pixelttf';
+	width: 250px;
+	margin-right: 20px;
+	padding: 20px;
+	float:right;
+	background-color: white;
+}
